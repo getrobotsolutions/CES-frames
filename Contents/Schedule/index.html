@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/BaseCommand.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/BaseEvent.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/LogConsole.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/Language.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/custom.js"></script>
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../maincontents.js"></script>
+    <script src="../../boots/js/bootstrap.min.js"></script> 
+    
+
+  <link href="../../css/Main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="../../boots/css/bootstrap.min.css">
+  <link href="css/schedule.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+
+<body >
+
+<header >
+    <div class="logo">
+        <img onclick="FC_ContentsCall('Home')" src="../../assets/logo.png" onmousedown ="return false">
+    </div>
+    
+</header>
+
+<nav>
+    <span class="home-text" onclick="FC_ContentsCall('Home')"><img class="home" src="../../assets/icons/home.png" alt="home" ></span>
+</nav>
+
+<section class="main-content">
+  <div class="subheader">
+        <div class="col-md-2">
+            <img src="../../assets/icons/microphone.png">
+        </div>
+        <div class="col-md-10" style="border: 4px solid #232f3e;height: 70px;">Tracey, what do you do?</div>   
+    </div>
+
+  <div class="bmg">
+    <div class="wrap">
+      
+      <ul class="nav nav-tabs" id="myTab">
+        <li class="active" style=""><a id="txt01" data-target="#mon" data-toggle="tab">Sun 01/06</a></li>
+        <li class="" style=""><a id="txt02" data-target="#tue" data-toggle="tab">Tue 11/27</a></li>
+        <li class="" style=""><a id="txt03" data-target="#wed" data-toggle="tab">Wed 11/28</a></li>
+        <li class="" style=""><a id="txt04" data-target="#thu" data-toggle="tab">Thu 11/29</a></li>
+        <li class="" style=""><a id="txt05" data-target="#fri" data-toggle="tab">Fri 11/30</a></li> 
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" style="text-align: center" id="mon">
+          <div class="col-sm-6 left-col">MEDIA EVENT:Living in Digital Times Media Days News Conference</div>
+          <div class="col-sm-6 right-col">1:00 PM – 1:45 PM :<br>LOCATION: Mandalay Bay Level 2, Reef D<img src="../../assets/icons/info.png" dir="1"></div>
+
+          <div class="col-sm-6 left-col">Session: Announcing AWS RoboMaker: A New Cloud Robotics Service </div>
+          <div class="col-sm-6 right-col">10:45–11:45AM:A New Cloud Robotics Service-Venetian – Titian 2205<img src="../../assets/icons/info.png" dir="2"></div>
+
+          <div class="col-sm-6 left-col">Online Event: AWS RoboMaker "Ask the Expert" on Reddit</div>
+          <div class="col-sm-6 right-col">2PM–3PM:</br>http://reddit.com/r/aws
+            <img src="../../assets/icons/info.png" dir="3"></div>
+
+          <div class="col-sm-6 left-col">Demo: WaiterBot 2.0</div>
+          <div class="col-sm-6 right-col">4 PM - 7 PM</br>Venetian Expo Hall
+            <img src="../../assets/icons/info.png" dir="4"></div>
+
+          <div class="col-sm-6 left-col">Demo: Robotics Kiosk Featuring AWS RoboMaker</div>
+          <div class="col-sm-6 right-col">4 PM - 7 PM</br>Robotics Kiosk - You Are Here
+            <img src="../../assets/icons/info.png" dir="5">
+          </div>
+
+          <div class="col-sm-6 left-col">Workshop: Use AWS RoboMaker to Develop a Robot Application to Track and Find Fido</div>
+          <div class="col-sm-6 right-col">7PM - 9:15PM</br>Venetian, Level 2, Veronese 2404
+            <img src="../../assets/icons/info.png" dir="6"></div>
+        </div>
+        <div class="tab-pane" style="text-align: center" id="tue">
+          
+          <div class="col-sm-6 left-col">Demo: Robotics Kiosk Featuring AWS RoboMaker</div>
+          <div class="col-sm-6 right-col">8 AM - 6 PM : <br>Robotics Kiosk - You Are Here!<img src="../../assets/icons/info.png" dir="7"></div>
+
+          <div class="col-sm-6 left-col">Demo: NASA Jet Propulsion Laboratory’s Open Source Rover</div>
+          <div class="col-sm-6 right-col">8 AM - 6 PM:<br>Venetian Expo Hall<img src="../../assets/icons/info.png" dir="8"></div>
+
+          <div class="col-sm-6 left-col">Demo: WaiterBot 2.0</div>
+          <div class="col-sm-6 right-col">8 AM - 6 PM</br>Venetian Expo Hall
+            <img src="../../assets/icons/info.png" dir="4">
+          </div>
+
+          <div class="col-sm-6 left-col">Event: Twitch Launchpad for AWS RoboMaker</div>
+          <div class="col-sm-6 right-col">9:05 – 9:25 AM :</br>Expo Hall
+            <img src="../../assets/icons/info.png" dir="10"></div>
+
+
+
+          <div class="col-sm-6 left-col">Event: Machine Learning Pub Crawl with Robot Trivia</div>
+          <div class="col-sm-6 right-col">6 PM - 8 PM</br>Heritage Steak at the Mirage
+            <img src="../../assets/icons/info.png" dir="11"></div>
+
+          
+        </div>         
+        
+        <div class="tab-pane" style="text-align: center" id="wed">
+
+          <div class="col-sm-6 left-col">Demo: Robotics Kiosk Featuring AWS RoboMaker</div>
+          <div class="col-sm-6 right-col">10 AM - 6 PM:</br>Robotics Kiosk - You Are Here!
+            <img src="../../assets/icons/info.png" dir="5">
+          </div>
+               
+          <div class="col-sm-6 left-col">Demo: NASA Jet Propulsion Laboratory’s Open Source Rover</div>
+          <div class="col-sm-6 right-col">10 AM - 6 PM:<br>Venetian Expo Hall<img src="../../assets/icons/info.png" dir="8"></div>
+
+          <div class="col-sm-6 left-col">Chalk Talk: ROS and AWS RoboMaker</div>
+          <div class="col-sm-6 right-col">11:30AM - 12:30PM:<br> MGM, Level 1, South Concourse 104<img src="../../assets/icons/info.png" dir="12"></div>
+
+          
+        </div>
+        <div class="tab-pane" style="text-align: center" id="thu">
+              
+          <div class="col-sm-6 left-col">Demo: Robotics Kiosk Featuring AWS RoboMaker</div>
+          <div class="col-sm-6 right-col">4 PM - 7 PM</br>Robotics Kiosk - You Are Here
+            <img src="../../assets/icons/info.png" dir="5">
+          </div>
+          <div class="col-sm-6 left-col">Chalk Talk: Build and Deploy Robot Applications Easily with AWS</div>
+          <div class="col-sm-6 right-col">11:30AM - 12:30PM:<br>Aria East, Plaza Level, Orovada 3<img src="../../assets/icons/info.png" dir="15"></div>
+
+          <div class="col-sm-6 left-col">Session: Announcing AWS RoboMaker: A New Cloud Robotics Service </div>
+          <div class="col-sm-6 right-col">12:15 – 1:15 PM<br>:A New Cloud Robotics Service-Venetian – Titian 2205<img src="../../assets/icons/info.png" dir="2"></div>
+
+          <div class="col-sm-6 left-col">Expo Demo: How To Train Your Robot with AWS RoboMaker & Amazon SageMaker</div>
+          <div class="col-sm-6 right-col">2:40 PM - 3:00 PM:</br>Pilvi Theater in the Expo Hall
+            <img src="../../assets/icons/info.png" dir="16"></div>
+
+          <div class="col-sm-6 left-col">Expo Demo: How we made Aibo smart: A journey through Serverless and IoT on AWS, and a view of AWS RoboMaker integration</div>
+          <div class="col-sm-6 right-col">3:10PM-3:30PM</br>Kumo Theater in the Expo Hall
+            <img src="../../assets/icons/info.png" dir="17"></div>
+
+                      
+        </div>
+        <div class="tab-pane" style="text-align: center" id="fri">
+              
+          <div class="col-sm-6 left-col">Chalk Talk: AWS RoboMaker for Reinforcement Learning</div>
+          <div class="col-sm-6 right-col">8:30AM - 9:30AM:<br> Venetian, Level 3, Murano 3202<img src="../../assets/icons/info.png" dir="13">
+          </div>
+
+          <div class="col-sm-6 left-col">Chalk Talk: Introduction to Simulation with AWS RoboMaker </div>
+          <div class="col-sm-6 right-col">10:45AM-11:45AM:<br>Mirage, Antigua B<img src="../../assets/icons/info.png" dir="14">
+          </div>
+
+                      
+        </div>
+                        
+      </div>
+      
+    </div>
+  </div>
+
+</section>
+
+
+<footer>
+<div class="col-sm-5"></div><div class="col-sm-7">Powered by AWS RoboMaker<img src="../../assets/icons/AWS_logo_RGB_WHT.png"></div>
+
+</footer>
+<div id="dialog-overlay1"></div>
+<div id="dialog-box1">
+  <div class="dialog-content1">
+    <a href="#" class="button btn-ok">Close</a>
+    <div id="dialog-message1"></div><a href="#" class="button map-btn">Map</a>
+  </div>
+</div>
+
+</body>
+<script type="application/javascript">
+   
+</script>
+
+<script language="JavaScript" type="text/javascript" src="js/schedule.js"></script>
+<script language="JavaScript" type="text/javascript" src="../Common/Scripts/common-inner.js"></script>
+
+<script language="javascript" type="text/javascript">
+    //window.history.forward();
+</script>
+
+
+
+</html>
