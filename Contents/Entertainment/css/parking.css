@@ -13,7 +13,8 @@ a:hover, a:active, a:visited, a:focus{
 
 }
   .img-home {position: absolute;top: -60px;z-index: 99;height: 62px;cursor: pointer; cursor: hand;}
-  .wrap{    padding-top: 20px;}
+  .wrap{    padding-top: 80px;
+    text-align: center;}
 .main-menu-matrix table button a{
   line-height: 67px;
 }

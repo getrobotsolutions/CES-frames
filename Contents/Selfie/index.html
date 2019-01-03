@@ -62,13 +62,6 @@
       		$('#change-ar').removeClass('active');
       
     	}
-    	else if (readCookie("lang")=="arabic") {
-    		window.external.ChangeLanguage("ar-eg");
-    		window.external.SetVolume(0.4);
-    		PlaySpeech("اِبْتَسِمْ");
-      		
-      
-    	}
 
   		
 
@@ -80,9 +73,7 @@
     			window.external.SetVolume(1);
 	    		PlaySpeech('Look at the camera on the robot’s head.');	
 			}
-			else if (readCookie("lang")=="arabic") {
-    			
-			}
+			
 		});
 	});
   </script>
@@ -90,17 +81,7 @@
 
 <body onload="JSMain()" onbeforeunload="JSUnload()" ondragstart="return false;" ondrop="return false;" style="-ms-user-select:none;" oncontextmenu="return false;" class="noselect unselectable">
 
-<header >
-	<div class="logo">
-		<img onclick="FC_ContentsCall('Home')" src="../../assets/logo.png">
-	</div>
-	 
-</header>
 
-<nav>
-	<span class="home-text" onclick="FC_ContentsCall('Home')"><img class="home" src="../../assets/icons/home.png" alt="home" ></span>
-	
-</nav>
 
 	<div id="wrapper">
 		<!--<div id="header">
@@ -215,10 +196,7 @@
 		<!-- //container -->
 	</div>
 	<!-- //wrapper -->
-<footer>
-  <div class="col-sm-5"></div><div class="col-sm-7">Powered by AWS RoboMaker<img src="../../assets/aws-logo.png"></div>
 
-</footer>
 
 <div id="dialog-overlay"></div>
 <div id="dialog-box">
@@ -227,14 +205,5 @@
 
 <script language="JavaScript" type="text/javascript" src="../Common/Scripts/common-inner.js"></script>
 </body>
-<script type="application/javascript">
-    if(readCookie("CurrentLanguage") === "English")
-    {
-        LanguageChange('english');
-    }
-    else if(readCookie("CurrentLanguage") === "Spanish")
-    {
-        LanguageChange('spanish');
-    }
-</script>
+
 </html>

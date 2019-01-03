@@ -32,10 +32,10 @@
 </header>
 
 <nav>
-
+<span class="home-text" onclick="FC_ContentsCall('Home')"><img class="home" src="assets/icons/home.png" alt="home" ></span>
 </nav>
 
-<section class="main-content" style="height: 61%">
+<section class="main-content" style="height: 65%">
   <div class="subheader">
         <!--<img src="assets/icons/microphone.png">-->
         <iframe src="http://localhost:8081/" allow="microphone" width="900"></iframe>
@@ -46,59 +46,10 @@
 
 
 
-    <div class="main-menu-matrix">
-      
-        <table>
-          <tr>
-            <td>
-              <button onclick="FC_ContentsCall('LearnMore')" class="r0c1" style="background-image: url(assets/gradient-bg.jpeg);">
-                    <img src="assets/icons/AWS-robomaker.png" style=""> 
-                    <a id="txt_shopping" style="">AWS RoboMaker</a>
-                  </button>
-              
-            </td>
-            <td>
-              <button onclick="FC_ContentsCall('Questions')" class="r0c1" style="background-image: url(assets/gradient-bg.jpeg);">
-                <img src="assets/icons/microphone-2.png" style="width:450px;" >
-                <a id="txt_shopping">"Tracey, what can i ask you?"</a>
-              </button>
-            
-            </tr>
-            
-            <tr>
-                <td>
-                  <button onclick="FC_ContentsCall('UseCases')"  class="r0c1" style="background-image: url(assets/gradient-bg.jpeg);">
-                    <img src="assets/icons/artificial-intelligence.png" style="">
-                    <a id="txt_shopping">Use Cases</a>
-                  </button>
-                </td>
-                <td>
-                    <button onclick="FC_ContentsCall('Entertainment')" class="r0c2" style="/ackground-image: url(assets/gradient-bg.jpeg);">
-                        <img src="assets/icons/slot-machine-with-sevens-2.png" style="">
-                        <a id="txt_robot_avatar"><br>Entertainment</a></br>
-                    </button>
-                </td>
-                
-                
-            </tr>
-            <tr>
-                <!--<td>
-                    <button onclick="FC_ContentsCall('Videos')" style="background-image: url(assets/icons/icon-bg-2.png)" class="icons-2">
-                        <img src="assets/icons/video-camera.png"> 
-                        <a id="txt_shopping">ARS Videos</a>
-                    </button>
-                </td>-->
-                <td>
-                    <button onclick="FC_ContentsCall('RentAndBuy')" style="ackground-image: url(assets/gradient-bg.jpeg);" class="icons-2">
-                        
-                        <a id="txt_robot_avatar">Rent or Buy me</a>
-                    </button>
-                </td>
-                
-                
-            </tr>
-        </table>
-    </div>
+   <div class="app-content" style="">
+    <iframe id="app-content" src="home.htm" width="1080" height="1100" ></iframe>
+       
+   </div>
 
 </section>
 

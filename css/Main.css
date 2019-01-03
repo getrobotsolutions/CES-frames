@@ -43,7 +43,7 @@ header .logo img {
 	margin-top: 50px;
 	margin-bottom: 70px;
 	height: 105px;
-	padding:10px 10px 0px 20px;
+	padding:10px 10px 0px 0px;
 	font-size: 40px;
 	color: #232f3e;
 }
@@ -292,4 +292,10 @@ iframe{border: none;}
 }
 .wrap video::-webkit-media-controls-fullscreen-button {
 display: none;
+}
+.app-content{padding-top: 50px}
+.home {
+    float: left;
+    height: 57px;
+    padding-right: 30px;
 }

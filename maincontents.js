@@ -34,7 +34,8 @@ function FC_ContentsCall(strContentsName, strLanguage)
             PlaySpeech("welcome, please press any button to begin");
             break;
         case "Home":
-           location.href = "../../maincontents.htm";
+           document.getElementById('app-content').src = 'home.htm';
+           //location.href = "maincontents.htm";
             break;
         case "LearnMore":
             //PlaySpeech(speak[0]);
