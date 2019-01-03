@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/BaseCommand.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/BaseEvent.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/LogConsole.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/Language.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../Scripts/custom.js"></script>
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../maincontents.js"></script>
+    <script src="../../boots/js/bootstrap.min.js"></script> 
+    
+
+  <link href="../../css/Main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="../../boots/css/bootstrap.min.css">
+  <link href="css/parking.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+
+<body >
+
+
+
+
+    <div class="wrap">
+      <img id="slide" src="images/1.png" width="1080">
+        
+        <div style="text-align: center;width: 1080px">    
+            <div class="prev" onclick="change(-1)"><</div>
+            <div class="next" onclick="change(1)">></div>
+        </div>
+    </div>
+  
+
+<div id="dialog-overlay1"></div>
+      <div id="dialog-box1"><a class="btn-ok">Close</a>
+        <div id="dialog-content1"></div>
+
+      </div>
+
+</body>
+<script type="application/javascript">
+    if(readCookie("CurrentLanguage") === "English")
+    {
+        LanguageChange('english');
+    }
+    else if(readCookie("CurrentLanguage") === "Spanish")
+    {
+        LanguageChange('spanish');
+    }
+
+</script>
+
+<script language="JavaScript" type="text/javascript" src="js/parking.js"></script>
+<script language="JavaScript" type="text/javascript" src="../Common/Scripts/common-inner.js"></script>
+
+<script language="javascript" type="text/javascript">
+    //window.history.forward();
+</script>
+
+
+
+</html>

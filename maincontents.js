@@ -53,6 +53,18 @@ function FC_ContentsCall(strContentsName, strLanguage)
             //PlaySpeech(speak[2]);
             location.href = "Contents/UseCases/index.html";
             break;
+        case "Court":
+            //PlaySpeech(speak[8]);
+            location.href = "../../Contents/Court/index.html";
+            break;
+        case "Airport":
+            //PlaySpeech(speak[8]);
+            location.href = "../../Contents/Airport/index.html";
+            break;
+        case "TradeShows":
+            //PlaySpeech(speak[8]);
+            location.href = "../../Contents/TradeShows/index.html";
+            break;
         case "Entertainment":
             //PlaySpeech(speak[3]);
             location.href = "Contents/Entertainment/index.html";
@@ -96,6 +108,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             //PlaySpeech(speak[8]);
             location.href = "../../Contents/RobotAvatar/index.htm";
             break;
+
         case "Config":
             location.href = "Config/Config.htm";
             break;
