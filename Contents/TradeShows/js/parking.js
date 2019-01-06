@@ -27,10 +27,10 @@ $(document).ready(function(){
    $('#leanmore').click(function(){
     location.href="slideshow.html";
    });
+   $('#video').click(function(){
+    location.href="video.html";
+   });
    
-
-
-
 
 });
 var index=1;

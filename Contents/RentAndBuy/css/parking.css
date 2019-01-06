@@ -17,6 +17,7 @@ a:hover, a:active, a:visited, a:focus{
     text-align: center;}
 .main-menu-matrix table button a{
   line-height: 67px;
+  width: 408px;
 }
      .icon{
       
@@ -172,7 +173,7 @@ p{
 }
 .main-menu-matrix table button{
   width: 425px;
-    height: 440px;
+    height: 460px;
     padding-top: 20px;
       margin-bottom: 50px;
 }
