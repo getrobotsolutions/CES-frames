@@ -177,3 +177,10 @@ p{
 .prev{
   margin-left:240px; 
 }
+#playbutton{
+    position: relative;
+    top: -90px;
+    left: 20px;
+    width: 80px;
+    opacity: .7;
+}
