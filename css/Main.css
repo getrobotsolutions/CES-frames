@@ -119,6 +119,9 @@ nav .nav-language button {
 	width: 80px !important;
 	    float: left;
 }
+.icons-2 a{
+	margin-top:10px !important; 
+}
 .main-menu-matrix table button div{
 	color: #232f3e;
     font-weight: bold;
