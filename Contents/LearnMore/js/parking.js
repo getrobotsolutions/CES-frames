@@ -27,7 +27,20 @@ $(document).ready(function(){
    $('#leanmore').click(function(){
     location.href="slideshow.html";
    });
-   
+   $('#video').click(function(){
+    location.href="video.html";
+   });
+   $('#tradeshow-video, #playbutton').click(function(){
+    var vid=document.getElementById('tradeshow-video');
+    if (vid.paused) {
+          vid.play();
+          $('#playbutton').attr('src','images/pause.png');
+        } else {
+          vid.pause();
+          $('#playbutton').attr('src','images/play.png');       
+        }
+   });
+
 
 
 
