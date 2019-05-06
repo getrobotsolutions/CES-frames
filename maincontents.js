@@ -86,7 +86,9 @@ function FC_ContentsCall(strContentsName, strLanguage)
             //PlaySpeech(speak[5]);
             location.href = "../../Contents/RentAndBuy/index.html";
             break;
-        
+        case "Questions":
+            //PlaySpeech(speak[6]);
+            location.href = "../../Contents/lex_n_polly/index.html";
 
         case "Selfie":
             //PlaySpeech(speak[6]);
